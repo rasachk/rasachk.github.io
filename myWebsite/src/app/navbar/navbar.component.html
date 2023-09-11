@@ -1,1 +1,24 @@
-<p>This is my app navbar</p>
+<nav class="navbar navbar-expand-lg p-3">
+  <div class="container-fluid">
+    <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto ">
+        <li class="nav-item">
+          <a class="nav-link mx-2 active" aria-current="page" [routerLink]="'/'" routerLinkActive="active"
+             [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" [routerLink]="'/books'" routerLinkActive="active"
+             [routerLinkActiveOptions]="{exact: true}">Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" [routerLink]="'/books'" routerLinkActive="active"
+             [routerLinkActiveOptions]="{exact: true}">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" [routerLink]="'/login'" routerLinkActive="active"
+             [routerLinkActiveOptions]="{exact: true}">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
