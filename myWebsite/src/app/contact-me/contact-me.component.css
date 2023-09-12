@@ -1,0 +1,16 @@
+.title {
+  font-weight: bold;
+}
+
+.contact-list {
+  font-size: 1.2rem;
+
+}
+
+.contact-list-item:hover{
+  color: #edebeb;
+}
+
+ p {
+   font-size: 1.3rem;
+ }
