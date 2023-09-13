@@ -7,6 +7,16 @@
   src: url('assets/PlayfairDisplay-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'NotoSansSogdian';
+  src: url('assets/NotoSansSogdian-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('assets/OpenSans-Regular.ttf');
+}
+
 * {
-  font-family: PlayFairDisplay, serif;
+  font-family: OpenSans, serif;
 }
