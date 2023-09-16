@@ -1,12 +1,18 @@
 nav {
-  border-bottom: 1px #bfbfbf solid;
+  /*border-bottom: 1px #bfbfbf solid;*/
 }
 
 .nav-link {
   font-weight: bold;
 }
 
+.nav-link:hover {
+  background-color: #ededed;
+  border-radius: 5px;
+}
+
 .active {
-  background-color: black;
+  /*text-decoration: white;*/
+  background-color: #ededed;
   border-radius: 5px;
 }

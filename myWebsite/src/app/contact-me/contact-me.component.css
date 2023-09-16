@@ -11,3 +11,27 @@
  p {
    font-size: 1.3rem;
  }
+
+.contact-box {
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.contact-box:hover {
+  background-color: #ededed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.row {
+  margin-top: 75px
+}
+
+img {
+  margin-bottom: 7px;
+}

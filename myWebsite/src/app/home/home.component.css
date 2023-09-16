@@ -7,3 +7,10 @@ h1 {
 }
 
 
+.row {
+  height: 760px;
+}
+
+.col-md-7 {
+  padding-left: 50px;
+}
