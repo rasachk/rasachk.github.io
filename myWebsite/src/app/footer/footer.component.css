@@ -1,5 +1,7 @@
 footer {
   /*border-top:1px #bfbfbf solid;*/
+  background-color: #ededed;
+  height: 5%;
 }
 
 .btn-outline-light {
@@ -11,5 +13,5 @@ footer {
 }
 
 .btn:hover {
-  background-color: #ededed;
+  background-color: white;
 }
