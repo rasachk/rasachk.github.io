@@ -1,13 +1,17 @@
 .certificate-item {
-  height: 105px;
+  height: 450px;
+  width: 430px;
   border: 1px black solid;
   border-radius: 5px;
-  padding: 12px;
+
   text-decoration: none;
 }
 
-.certificate-item:hover{
-  color: #edebeb;
+.description {
+  padding: 12px;
+}
+
+.certificate-item:hover {
 }
 
 .certificate-item:hover {
@@ -17,4 +21,15 @@
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.image {
+  /*height: 287px;*/
+  /*width: 372px;*/
+  height: 350px;
+  width: 430px;
+}
+
+.col-md-4 {
+  padding: 10px;
 }
