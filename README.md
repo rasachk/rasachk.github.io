@@ -1,2 +1,2 @@
 # rasachk.github.io
-My Personal Website
+My Personal Website, made with Angular Framework
